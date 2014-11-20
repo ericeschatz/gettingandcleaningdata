@@ -32,7 +32,7 @@ dat <- rbind(train, test)%>%
 
 
 ##remove the temp data sets
-rm(features, train, test, activity_labels)##remove
+rm(features, train, test, activity_labels)
 
 
 ##create tidy dataset dat2, with mean for all variables grouped by activity description and subject

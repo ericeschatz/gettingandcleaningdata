@@ -17,7 +17,9 @@ dat:
 
 3.  columns 3:88. taken from the "features" data set, and are the mean and standard deviation
 	for each type of observation.  This is a subset of the original "features" data set.  All
-	observations for each subject and activity_description is included, for all variables.
+	observations for each subject and activity_description is included, for all variables.  for variables prefixed with 
+	't' the observation is time measured in seconds, for those prefixed with 'f' the observation is frequency
+	measured in Hz.
 	
 
 dat2:
@@ -32,7 +34,9 @@ dat2:
 3.  columns 3:88.  these are identical variables to the same columns from dat EXCEPT they
 	are the average(mean) of those columns.  the results are grouped by subject and
 	activity_description.  therefore you have an average of each subject by the type of 
-	activity they are performing.
+	activity they are performing.  for variables prefixed with 
+	't' the observation is time measured in seconds, for those prefixed with 'f' the observation is frequency
+	measured in Hz.
 
 
 FEATURES_INFO.TXT provides a more detailed description of the measurements in both 
